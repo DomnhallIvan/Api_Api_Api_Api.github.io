@@ -1,0 +1,29 @@
+{
+    "Materias":[
+        {
+            "nombre_Materia":"Inteligencia Artificial",
+            "nombre_del_Docente":"Juan José López Banyo",
+            "descripcion":"Materia enfocado en la creación de la Inteligencia Artificial de los enemigos en un juego."
+        },
+       {
+             "nombre_Materia":"Simulación física en realidad Virtual",
+            "nombre_del_Docente":"Ricardo Rodríguez",
+            "descripcion":"En esta materia aprendó cómo dar propiedades más realistas a mi juego (como la gravedad, ragdolls y cómo estos pueden interactuar con el mundo para dar animaciones dinámicas), entre otros aspectos de los juegos."
+       },
+       {
+            "nombre_Materia":"Desarrollo de apps móviles",
+            "nombre_del_Docente":"Diana Rodriguez",
+            "descripcion":"Materia enfocado en la creación de la Inteligencia Artificial de los enemigos en un juego."
+       },
+       {
+         "nombre_Materia":"Proyecto Semestral",
+            "nombre_del_Docente":"Rodrigo Saco",
+            "descripcion":"Cada semestre creamos un juego en el que pondremos todo lo visto en el resto de materias a prueba, en este semestre hay un enfásis en crear un juego de Realidad Virtual con inspiración en los Escape Rooms"
+       },
+       {
+         "nombre_Materia":"Desarollo web",
+            "nombre_del_Docente":"Jonathan Mircha",
+            "descripcion":"Desarrollo de páginas web más complejas con JavaScript, Bootstrap, Css, Js."
+       }
+    ]
+}
