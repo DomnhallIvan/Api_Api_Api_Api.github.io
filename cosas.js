@@ -25,4 +25,13 @@ async function obtenerDatosLocales() {
   $mats.innerHTML = materiasYeahHTML;
 }
 
+
+import { tvMazeSearch } from "./modulos/api-tv-maze.js";
+import { AmiiboSearch } from "./modulos/api-amiibo.js";
+import { showPokemons } from "./modulos/api-pokemons.js";
+
+
+AmiiboSearch();
+tvMazeSearch("#search", ".shows");
+showPokemons();
 obtenerDatosLocales();

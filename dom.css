@@ -1,4 +1,11 @@
+img {
+  max-width: 100%;
+}
 
+.full-screen {
+  width: 100%;
+  min-height: 100vh;
+}
 
 h1 {
     color: rgb(82, 157, 167);
@@ -20,3 +27,14 @@ html {
 .dark-mode {
   font-size: 24px;
 }
+
+.shows,
+.amiibos{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2vh;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+
