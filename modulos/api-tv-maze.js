@@ -50,3 +50,4 @@ export function tvMazeSearch(search, selector) {
     $shows.innerHTML = "";
   });
 }
+

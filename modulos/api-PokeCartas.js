@@ -24,7 +24,7 @@ export function PokeCartasSearch(search, selector){
               <div class="Cartas">
                 <h3>${el.name}</h3>
                 <img src="${el.image}" alt="${el.name}" />
-                
+                ${el.id}
               </div>
             `;
             })
