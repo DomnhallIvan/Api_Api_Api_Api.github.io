@@ -26,12 +26,11 @@ async function obtenerDatosLocales() {
 }
 
 
-import { tvMazeSearch } from "./modulos/api-tv-maze.js";
-import { AmiiboSearch } from "./modulos/api-amiibo.js";
-import { showPokemons } from "./modulos/api-pokemons.js";
+
+import { PokeCartasSearch } from "./modulos/api-PokeCartas.js";
 
 
-AmiiboSearch();
-tvMazeSearch("#search", ".shows");
-showPokemons();
+PokeCartasSearch("#search",".cartas")
+
+
 obtenerDatosLocales();
